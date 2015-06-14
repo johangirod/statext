@@ -25,9 +25,9 @@ respondOk :: Handler b Api ()
 respondOk = modifyResponse $ setResponseCode 200
 
 analyzeText :: Handler b Api ()
-analyzeText = readRequestBody 10000 >>= writeLBS . analyze
+analyzeText = readRequestBody 100000000 >>= writeLBS . analyze
 	where 
-		analyze = encode . wordCount . decodeUtf8
+		analyze = encode . take 100 . wordCount . decodeUtf8
 
 apiInit :: SnapletInit b Api
 apiInit = makeSnaplet "api" "Core Api" Nothing $ do
