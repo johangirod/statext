@@ -1,4 +1,8 @@
-import StatText
-import qualified Data.Text.Lazy as T
+module Main where 
 
-main = interact $ show . wordCount . T.pack
+import Application
+import Snap.Snaplet
+import Snap.Http.Server.Config
+
+main :: IO ()
+main = serveSnaplet defaultConfig app
