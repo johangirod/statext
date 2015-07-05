@@ -78,3 +78,20 @@ Too many bytes read
 [14/Jun/2015:19:01:50 +0200] Server.httpServe: SHUTDOWN
 [14/Jun/2015:19:01:50 +0200] Server.httpServe: BACKEND STOPPED
 [14/Jun/2015:19:01:57 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:12:48:36 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:14:12:18 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:14:14:50 +0200] Server.httpServe: SHUTDOWN
+[05/Jul/2015:14:14:50 +0200] Server.httpServe: BACKEND STOPPED
+[05/Jul/2015:14:14:57 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:14:16:30 +0200] Server.httpServe: SHUTDOWN
+[05/Jul/2015:14:16:30 +0200] Server.httpServe: BACKEND STOPPED
+[05/Jul/2015:14:17:19 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:14:33:50 +0200] Server.httpServe: SHUTDOWN
+[05/Jul/2015:14:33:50 +0200] Server.httpServe: BACKEND STOPPED
+[05/Jul/2015:14:33:56 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:14:48:09 +0200] Server.httpServe: SHUTDOWN
+[05/Jul/2015:14:48:09 +0200] Server.httpServe: BACKEND STOPPED
+[05/Jul/2015:19:15:54 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
+[05/Jul/2015:19:16:54 +0200] Server.httpServe: SHUTDOWN
+[05/Jul/2015:19:16:54 +0200] Server.httpServe: BACKEND STOPPED
+[05/Jul/2015:19:41:46 +0200] Server.httpServe: START, binding to [http://0.0.0.0:8000/]
