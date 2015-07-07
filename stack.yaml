@@ -1,5 +1,8 @@
 flags: {}
 packages:
 - '.'
+- 'src/server/Api'
+- 'src/server/Domain'
 extra-deps: []
 resolver: lts-2.17
+other-modules: [Api]
