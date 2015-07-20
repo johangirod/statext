@@ -45,14 +45,13 @@ extra-source-files:  README.md
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
-
 executable statext
   -- .hs or .lhs file containing the Main module.
   main-is:             Application.hs
 
-  -- Modules included in this executable, other than Main.
-  other-modules:       src/server/Api
-
+  other-modules:
+    Api.Core
+    Domain.StatText
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    OverloadedStrings
 
@@ -64,7 +63,9 @@ executable statext
     wai-middleware-static,
     containers,
     text,
-    http-types
+    http-types,
+    aeson,
+    wai-extra
 
   -- Directories containing source files.
   hs-source-dirs:      src/server
